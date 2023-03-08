@@ -6,7 +6,7 @@ ld = number % 10
 if number < 0:
     ld = ld * -1
 
-print(f"Last digit of {number} is {ld} and is ", end=" ")
+print(f"Last digit of {number} is {ld} and is ", end="")
 
 if ld > 5:
     print("greater than 5")
